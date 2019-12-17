@@ -25,6 +25,22 @@ switch(channel){
   case 2:
     controlByte = 0xA8;
     break;
+  case 3:
+    controlByte = 0xB8;
+    break;
+  case 4:
+    controlByte = 0xC8;
+    break;
+  case 5:
+    controlByte = 0xD8;
+    break;
+  case 6:
+    controlByte = 0xE8;
+    break;
+  case 7:
+    controlByte = 0xF8;
+    break;
+    
 }
 
 Wire.beginTransmission(_address);
