@@ -1,4 +1,4 @@
-### Additional information and document update here on my site: [MAX128 Article](http://www.farnell.com/datasheets/1915306.pdf?_ga=2.223328210.859456518.1576512986-595737933.1568120141&_gac=1.16453122.1572960993.EAIaIQobChMIq7bvnZjT5QIVBeJ3Ch2vVA9xEAQYBSABEgIWVPD_BwE).
+### Additional information about MAX128 DAS / ADC here: [MAX128 Article](http://www.farnell.com/datasheets/1915306.pdf?_ga=2.223328210.859456518.1576512986-595737933.1568120141&_gac=1.16453122.1572960993.EAIaIQobChMIq7bvnZjT5QIVBeJ3Ch2vVA9xEAQYBSABEgIWVPD_BwE).
 
 
 Library to use i2c DAS/ADC IC with arduino and esp32. Can read DAS/ADC value with only 2 wire (perfect for ESP-01).
