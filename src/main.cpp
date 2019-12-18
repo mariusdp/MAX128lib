@@ -1,8 +1,9 @@
 /* Board I2C / TWI pins 
-   Heltec WiFi Kit 32 (ESP32 with OLED): 21 (SAD), 22 (SCL)
+   Wemos Lolin 32 OLED:                  5  (SDA),  4 (SCL)
+   Heltec WiFi Kit 32 (ESP32 with OLED): 21 (SDA), 22 (SCL)
    Uno, Ethernet:                        A4 (SDA), A5 (SCL) 
    Mega2560:                             20 (SDA), 21 (SCL) 
-   Leonardo:                              2 (SDA), 3 (SCL) 
+   Leonardo:                              2 (SDA),  3 (SCL) 
    Due:                                  20 (SDA), 21 (SCL), SDA1, SCL1 
  */
 #include "Arduino.h"
