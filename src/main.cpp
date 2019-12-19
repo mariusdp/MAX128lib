@@ -22,7 +22,7 @@ MAX128 adc(address);
 void setup(){
  Wire.begin(); 
  Serial.begin(115200);
-
+ 
 }
 void loop(){
  int data0 = adc.readADC(0);
@@ -43,7 +43,7 @@ void loop(){
  Serial.print("Data 2: ");
  Serial.println(data2);
  Serial.println("Volt 2: " + String(volt2) +" V");
-// Serial.println(volt2);
+ //Serial.println(volt2);
  Serial.println("------------------------------");
- delay(2000);
+  delay(2000);
 }
