@@ -1,5 +1,6 @@
 #include "Arduino.h"
 #include "Wire.h"
+
 int address = 0x28;
 byte MSB;
 byte LSB;
@@ -7,10 +8,12 @@ int MSByte = 0;
 int LSByte = 0;
 int data = 0;
 float valor;
+
 void setup(){
 Wire.begin();
 Serial.begin(115200);
 }
+
 void loop(){
 Wire.beginTransmission(address);
 Wire.write(0x88); // read channel 0, Input range 0-Vref
